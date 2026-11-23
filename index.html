@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel Cecílio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/javascript.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#home">Quem eu sou?</a>
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#basquete">Basquete</a>
+      <a href="#corrida">Corrida</a>
+      <a href="#contato">Contato</a>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <span onclick="openNav()"
+      ><button class="btn"><i class="fa fa-bars"></i> Menu</button></span
+    >
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+      <div class="row">
+        <div class="column">
+          <img src="img/cor1.jpg" alt="" height="900px" class="fixa" />
+
+          <br />
+          <hr />
+          <section id="trajetoria"></section>
+          <h1>Trajetória</h1>
+          <!-- APRESENTAÇÂO DE SLIDES -->
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 7</div>
+              <div class="container">
+                <img src="img/marola1.jpg" alt="Avatar" class="image" />
+                <div class="overlay">
+                  Antes de tudo - Noxus
+                  <p>
+                    Em 2022, após a pandemia, um grupo de amigos decidiu criar
+                    um pequeno time de futsal e basquete, sem grandes
+                    aspirações, chamado Noxus. Mal sabiam eles o que esse time
+                    se tornaria.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 7</div>
+              <div class="container">
+                <img src="img/marola2.jpg" alt="Avatar" class="image" />
+                <div class="overlay">
+                  A criação - Real Marola
+                  <p>
+                    Em 2023, houve uma reformulação do antigo Noxus, criando
+                    então o Real Marola. Com novos reforços, o plano agora era
+                    disputar mais campeonatos e ter novas experiências.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 7</div>
+              <div class="container">
+                <img src="img/marola3.jpg" alt="Avatar" class="image" />
+                <div class="overlay">
+                  Auge - Real Marola
+                  <p>
+                    Com o sucesso do Real Marola, em 2024 ele atingiu o ápice,
+                    com mais reforços, integração com o time feminino e
+                    conquistando campeonatos.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 7</div>
+              <div class="container">
+                <img src="img/loscucos.jpg" alt="Avatar" class="image" />
+                <div class="overlay">
+                  Breve passagem - Los Cucos
+                  <p>
+                    Também em 2024, Los Cucos se tornou uma equipe parceira do
+                    Real Marola, destinada a disputar outras modalidades como
+                    basquete, handebol e vôlei, enquanto Real Marola focava no
+                    futsal.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 7</div>
+              <div class="container">
+                <img src="img/ifb.jpg" alt="Avatar" class="image" />
+                <div class="overlay">
+                  Comissão técnica - IFB Basquete
+                  <p>
+                    Já em 2025, em novas terras, um novo desafio: criar um time
+                    de basquete "quase" do zero, usando como base o IFB. Nova
+                    equipe, novos atletasm novos desafios e novas experiências.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 7</div>
+              <div class="container">
+                <img src="img/Puranata.jpg" alt="Avatar" class="image" />
+                <div class="overlay">
+                  Basquete 3 x 3 - Puranata
+                  <p>
+                    Não só de comissão técnica se vive! Ainda em 2025 foi criado
+                    um pequeno time de basquete 3 x 3 para disputar um
+                    campeonato.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">7 / 7</div>
+              <div class="container">
+                <img src="img/Clube Rup.jpg" alt="Avatar" class="image" />
+                <div class="overlay">
+                  Corrida! - Rup Running
+                  <p>
+                    2026, após tempo parado, nada melhor que voltar com tudo
+                    participando de um projeto da Rup Running, uma corrida de
+                    rua!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br />
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+          </div>
+        </div>
+        <div class="column">
+          <section id="home"></section>
+          <h1>Samuel D. S. Cecílio</h1>
+          <h2>Quem eu sou?</h2>
+          <p>
+            Sou universitário e um grande amante dos esportes. Ao longo da minha
+            trajetória, tive a oportunidade de praticar diversas modalidades,
+            como futsal, futebol, basquete, handebol, vôlei, tênis de mesa e
+            corrida. Atualmente, minhas principais paixões são o basquete e a
+            corrida, esportes que continuo praticando e nos quais já tive a
+            oportunidade de participar de campeonatos locais e regionais.
+          </p>
+
+          <p>
+            O esporte sempre teve um papel muito importante na minha vida, indo
+            muito além dos benefícios para a saúde física. Por meio dele,
+            consegui superar a timidez, desenvolver minha autoestima, fazer
+            novas amizades, aprender a trabalhar em equipe, construir disciplina
+            e enfrentar desafios que contribuíram para o meu crescimento
+            pessoal.
+          </p>
+
+          <p>
+            Pretendo continuar praticando esportes ao longo da minha vida e,
+            além disso, incentivar as pessoas ao meu redor a fazerem o mesmo.
+            Acredito que o esporte tem o poder de transformar vidas, aproximar
+            pessoas e ensinar valores que levamos para muito além das quadras e
+            dos campos.
+          </p>
+
+          <p>Redes sociais: @sa_mukila & @ruprunning</p>
+
+          <hr />
+          <section id="basquete"></section>
+          <h1>Basquete</h1>
+          <div class="scroll-container">
+            <img src="img/bas1.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/bas2.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/bas3.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/bas4.JPG" alt="" height="200px" class="zoom" />
+            <img src="img/bas5.JPG" alt="" height="200px" class="zoom" />
+            <img src="img/bas6.JPG" alt="" height="200px" class="zoom" />
+            <img src="img/bas7.JPG" alt="" height="200px" class="zoom" />
+          </div>
+          <br />
+          <hr />
+          <section id="corrida"></section>
+          <h1>Corrida</h1>
+          <div class="scroll-container">
+            <img src="img/cor1.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/cor2.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/cor3.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/cor4.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/cor5.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/cor6.jpg" alt="" height="200px" class="zoom" />
+            <img src="img/cor7.jpg" alt="" height="200px" class="zoom" />
+          </div>
+          <br />
+          <hr />
+          <br /><br />
+          <section id="contato"></section>
+          <div class="container">
+            <div style="text-align: center">
+              <h2>Quer me desafiar para um x1?</h2>
+              <p class="preto">
+                Preencha as informações abaixo e me chame para um rolê!
+              </p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="img/bas7.jpeg" style="width: 100%" />
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="nome">Nome</label>
+                  <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Seu nome.."
+                  />
+                  <label for="sobrenome">Sobrenome</label>
+                  <input
+                    type="text"
+                    id="sobrenome"
+                    name="sobrenome"
+                    placeholder="Seu sobrenome.."
+                  />
+                  <label for="cidade">Região Administrativa do DF</label>
+                  <select id="cidade" name="cidade">
+                    <option value="aguas_claras">Águas Claras</option>
+                    <option value="arniqueira">Arniqueira</option>
+                    <option value="brazlandia">Brazlândia</option>
+                    <option value="candangolandia">Candangolândia</option>
+                    <option value="ceilandia">Ceilândia</option>
+                    <option value="cruzeiro">Cruzeiro</option>
+                    <option value="estrutural">Estrutural</option>
+                    <option value="fercal">Fercal</option>
+                    <option value="gama">Gama</option>
+                    <option value="guara">Guará</option>
+                    <option value="itapoa">Itapoã</option>
+                    <option value="jardim_botanico">Jardim Botânico</option>
+                    <option value="lago_norte">Lago Norte</option>
+                    <option value="lago_sul">Lago Sul</option>
+                    <option value="nucleo_bandeirante">
+                      Núcleo Bandeirante
+                    </option>
+                    <option value="paranoa">Paranoá</option>
+                    <option value="park_way">Park Way</option>
+                    <option value="planaltina">Planaltina</option>
+                    <option value="plano_piloto">Plano Piloto</option>
+                    <option value="recanto_das_emas">Recanto das Emas</option>
+                    <option value="riacho_fundo">Riacho Fundo</option>
+                    <option value="riacho_fundo_ii">Riacho Fundo II</option>
+                    <option value="samambaia">Samambaia</option>
+                    <option value="santa_maria">Santa Maria</option>
+                    <option value="sao_sebastiao">São Sebastião</option>
+                    <option value="sia">SIA</option>
+                    <option value="scia">SCIA</option>
+                    <option value="sobradinho">Sobradinho</option>
+                    <option value="sobradinho_ii">Sobradinho II</option>
+                    <option value="sol_nascente">
+                      Sol Nascente/Pôr do Sol
+                    </option>
+                    <option value="sudoeste_octogonal">
+                      Sudoeste/Octogonal
+                    </option>
+                    <option value="taguatinga">Taguatinga</option>
+                    <option value="varjao">Varjão</option>
+                    <option value="vicente_pires">Vicente Pires</option>
+                  </select>
+                  <label for="subject">O que quer e onde jogar:</label>
+                  <textarea
+                    id="subject"
+                    name="subject"
+                    placeholder="Fale mais..."
+                    style="height: 170px"
+                  ></textarea>
+                  <input type="submit" value="Enviar" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      ...
+    </div>
+    <br /><br />
+
+    <footer>
+      &copy; 2026 - Todos os Direitos Reservados :: Desenvolvido por
+      <a href="mukilagamer@gmail.com">Samuel Cecílio</a>
+    </footer>
+  </body>
+</html>
