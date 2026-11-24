@@ -18,6 +18,13 @@ h2 {
   text-align: center;
 }
 
+.fixa{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    object-fit: contain;
+}
+
 .btn {
   background-color: rgb(9, 56, 102); /* Blue background */
   border: none; /* Remove borders */
